@@ -1,0 +1,39 @@
+[
+    {
+        "id": "275879c4f7718350",
+        "type": "ui_text",
+        "z": "e7564ee21ca9612f",
+        "group": "0311c469fa7d64fc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Hora Actual:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 530,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "0311c469fa7d64fc",
+        "type": "ui_group",
+        "name": "Fecha actual con formato legible",
+        "tab": "34f2ad2e0f8cda5f",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "34f2ad2e0f8cda5f",
+        "type": "ui_tab",
+        "name": "Flow 3 - Tablero fecha",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
